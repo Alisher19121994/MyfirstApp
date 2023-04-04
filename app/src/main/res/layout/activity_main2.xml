@@ -3,16 +3,11 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
+    android:orientation="vertical"
     android:layout_height="match_parent"
     android:gravity="center"
-    tools:context=".MainActivity2">
+    android:padding="50dp"
+    tools:context=".activity.activities.MainActivity2">
 
-    <ImageView
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:src="@drawable/mub"
-        android:adjustViewBounds="true"
-        android:scaleType="centerCrop"
-        />
 
 </LinearLayout>
